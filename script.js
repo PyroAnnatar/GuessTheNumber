@@ -50,10 +50,10 @@ document.querySelector(".check").addEventListener("click", function () {
     document.querySelector(".number").textContent = secretNumber;
     document.querySelector(".sarcasm").style.display = "block";
     state("win");
-  }
   if (score > highscore) {
     highscore = score;
     document.querySelector(".highscore").textContent = highscore;
+  }
   }
 
   // When guess is wrong
